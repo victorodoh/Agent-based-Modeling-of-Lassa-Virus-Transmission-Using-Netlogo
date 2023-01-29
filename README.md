@@ -2,10 +2,16 @@ AGENT-BASED MODELLING OF LASSA VIRUS TRANSMISSION USING NETLOGO
 
 This model simulates Lassa Virus Transmission, an endemic predominantly in the western region of Africa. It is able to estimate the size of imminent attacks at any time based on some input parameters. It can be used to analyze the degree of impact of community hygiene and social distancing on the virus transmission rate over time, and can serve as a research aid tool for epidemiologists or health organisations.
 
-#### HOW TO RUN MODEL VIA NETLOGO MODELING COMMONS: ####
+#### HOW TO RUN THE MODEL: ####
 
+1. Via Netlogo Modelling Commons:
 - Load Link: http://modelingcommons.org/browse/one_model/7141#browse_nlw
-- Click the "Run in Netlogo Web" Tab to open the window, then click anywhere within this window to run model
+- Click the "Run in Netlogo Web" tab to open the window, then click anywhere within this window to run model.
+
+2. Via Netlog Desktop:
+- Download and install Netlogo for Mac/windows/Linux : https://ccl.northwestern.edu/netlogo/6.1.1/
+- Download the "Lassa Fever Transmission.nlogo" file of this repo
+- Open the .nlogo downloaded file in the Netlogo app to launch interface for simulation.
 
 
 #### HOW IT WORKS: ####
