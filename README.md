@@ -12,7 +12,7 @@ This model simulates Lassa Virus Transmission, an endemic predominantly in the w
 
 THE INTERFACE
 
-![alt text] (https://github.com/victorodoh/Agent-based-Modeling-of-Lassa-Virus-Transmission-Using-Netlogo/blob/main/Interface%20Pics/Model%20Interface.png?raw=true)
+![](Interface%20Pics/Model%20Interface.png)
 
 Interface includes sets of parameters in the form of sliders which users can use to adjust the inputs based on the requirements of their experiment.
 
@@ -27,57 +27,44 @@ Interface includes sets of parameters in the form of sliders which users can use
 
 - MultimammateRatPopulation: to select a variable number of infectious rat agents which the user needs to be populated into the world. Clicking the Initialize Simulation button sets up the simulation with the desired number of rats and places them randomly across the world.
 
-InitialNumberOf_Cases: For selecting a pre-existing number of cases (infectious human agents) at the beginning of the simulation. Clicking the Initialize Simulation button displays the selected Initial number of cases scattered randomly among all agents within the world.
+- InitialNumberOf_Cases: For selecting a pre-existing number of cases (infectious human agents) at the beginning of the simulation. Clicking the Initialize Simulation button displays the selected Initial number of cases scattered randomly among all agents within the world.
 
-%Severe_Cases: This indicates the percentage of the initial number of infected human agents that were severely affected by the virus. Based on the user’s selection, the system computes and populates the exact number of infected humans with severe symptoms in the world.
+- %Severe_Cases: This indicates the percentage of the initial number of infected human agents that were severely affected by the virus. Based on the user’s selection, the system computes and populates the exact number of infected humans with severe symptoms in the world.
 
-Incubation_Period: It represents the length of time in days that it will take for a newly infected human to begin to exhibit some symptoms and become infectious. Users can select a variable number of days depending on what their simulation/ experiment needs.
+- Incubation_Period: It represents the length of time in days that it will take for a newly infected human to begin to exhibit some symptoms and become infectious. Users can select a variable number of days depending on what their simulation/ experiment needs.
 
-Sick_Days: Length of time in days for an infectious human to either recover or die from fighting the virus. This begins to count immediately after the incubation period elapses. Sliding left or right selects a variable number of days which the system uses to perform calculations and actions based on some conditions.
+- Sick_Days: Length of time in days for an infectious human to either recover or die from fighting the virus. This begins to count immediately after the incubation period elapses. Sliding left or right selects a variable number of days which the system uses to perform calculations and actions based on some conditions.
 
-InfectiousDaysAfter_Recovery: Length of time in days that the virus lasts in a human agent that survived the viral infection and had become immune. During these days, the human agent is still infectious and hence, still poses a risk (though minimal) of infecting other nearby humans in contact. A variable number of days can be selected as required for simulation.
+- InfectiousDaysAfter_Recovery: Length of time in days that the virus lasts in a human agent that survived the viral infection and had become immune. During these days, the human agent is still infectious and hence, still poses a risk (though minimal) of infecting other nearby humans in contact. A variable number of days can be selected as required for simulation.
 
-CFRMildCase: For selecting or adjusting the Case Fatality Rate (CFR) in percentage for infectious human agents with mild symptoms. The system takes whatever value that was selected as an input argument and calculates the probability of the agent dieing after the Sick Days has elapsed.
+- CFRMildCase: For selecting or adjusting the Case Fatality Rate (CFR) in percentage for infectious human agents with mild symptoms. The system takes whatever value that was selected as an input argument and calculates the probability of the agent dieing after the Sick Days has elapsed.
 
-CFRSevereCase: For selecting the Case Fatality Rate in percentage for infectious human agents with severe symptoms. Just like the former, the user can adjust or modify the parameter value. The system then computes the Case Fatality Rate to determine if the human agent dies or not.
+- CFRSevereCase: For selecting the Case Fatality Rate in percentage for infectious human agents with severe symptoms. Just like the former, the user can adjust or modify the parameter value. The system then computes the Case Fatality Rate to determine if the human agent dies or not.
 
-%InfectiousnessRatto_Humans: This slider can be used to set the probability in percentage, of a rat-to-human transmission for every instance of time when an uninfected human agent gets in contact with rat agent.
+- %InfectiousnessRatto_Humans: This slider can be used to set the probability in percentage, of a rat-to-human transmission for every instance of time when an uninfected human agent gets in contact with rat agent.
 
-%InfectiousnessHumanto_Human: A user can use this slider to select the probability in percentage, of a human-to-human transmission of the virus for every instance of time that an uninfected human agent gets in contact with an already infectious human agent.
+- %InfectiousnessHumanto_Human: A user can use this slider to select the probability in percentage, of a human-to-human transmission of the virus for every instance of time that an uninfected human agent gets in contact with an already infectious human agent.
 
-HumanBehaviourFactor: A factor which represents the level of hygiene or social distancing being practiced by humans in the world. The least value that can be selected is set at 0.01 and the highest value is set at 0.99. This system uses this value to adjust the speed of both agent sets in slightly different ways. The higher the value, the higher the degree of hygiene practice (and vice versa) which will mitigate the activities of the disease carrying rats in the world. This behavior is represented in the model by slowing down the speed (activities) of the rat agents, as well as improving social distancing for the human agents. The speed of both agent sets gets slower as the value gets higher.
+- HumanBehaviourFactor: A factor which represents the level of hygiene or social distancing being practiced by humans in the world. The least value that can be selected is set at 0.01 and the highest value is set at 0.99. This system uses this value to adjust the speed of both agent sets in slightly different ways. The higher the value, the higher the degree of hygiene practice (and vice versa) which will mitigate the activities of the disease carrying rats in the world. This behavior is represented in the model by slowing down the speed (activities) of the rat agents, as well as improving social distancing for the human agents. The speed of both agent sets gets slower as the value gets higher.
 
 #### THINGS TO NOTICE: ####
 
 The color changes helps to monitor the transition from one health status to the other, of the human agents.
 
-White Human: Healthy, not infected.
-Yellow Human: future case
-Orange Human: Mild case.
-Red Human: Severe case.
-Cyan Human: Immune carriers
-Lime Human: Fully recovered and immune
-Gray Human: Dead human
-Rats in red
+- White Human: Healthy, not infected.
+- Yellow Human: future case
+- Orange Human: Mild case.
+- Red Human: Severe case.
+- Cyan Human: Immune carriers
+- Lime Human: Fully recovered and immune
+- Gray Human: Dead human
+- Rats in red
 
 POPULATED WORLD
 
-![alt text] (https://github.com/victorodoh/Agent-based-Modeling-of-Lassa-Virus-Transmission-Using-Netlogo/blob/main/Interface%20Pics/Populated%20World.png?raw=true)
+![](Interface%20Pics/Populated%20World.png)
 
 #### THINGS TO TRY: ####
-You can adjust the HumanBehaviourFactor slider to see how the level of comminity hygiene / social distance being practiced affects the Lassa virus transmission.
+- You can adjust the HumanBehaviourFactor slider to see how the level of comminity hygiene / social distance being practiced affects the Lassa virus transmission.
 
-You can also adjust the human / rat population to analyze the effect of population density on the Lassa virus transmission.
-
-EXTENDING THE MODEL
-Some logical assumptions had to be made in the design/coding of the model. For instance, a fixed population size (0% growth rate) was assumed for both agent sets. A lower spread chance was assumed for humans with severe symptoms and that they must have been hospitalized with restricted movement / visits. Seasonal drivers of the transmission of LASV, among other scenarios, were not considered in the design. These are some of the limitations of the model hence the simulation outcomes are to serve as a guide for research purposes and not to be entirely relied upon for predicting future occurrences.
-
-As research on LF gets more extensive, the scope of the model design could be expanded to include other real-world scenarios that can be used to build a more sophisticated model with increased precision in simulation.
-
-RELATED MODELS
-the “HIV” and “Virus” models in Netlogo's model library
-
-CREDITS AND REFERENCES
-André Calero Valdez (@sumidu) web calerovaldez.com
-
-Wilensky, U. (1998). NetLogo Virus model. http://ccl.northwestern.edu/netlogo/models/Virus. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+- You can also adjust the human / rat population to analyze the effect of population density on the Lassa virus transmission.
