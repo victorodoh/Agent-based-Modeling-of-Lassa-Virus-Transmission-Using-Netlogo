@@ -23,9 +23,9 @@ Interface includes sets of parameters in the form of sliders which users can use
 
 #### HOW TO USE THE MODEL: ####
 
-Human_Population: This slider can be used by a user to select a variable number of human agents to be populated into the world (Graphics window). Since at least two persons are required for a viral transmission to occur, the minimum number for the slider was set to “2”. After selecting the desired number of human agents, clicking the Initialize Simulation button will reset the simulation and reflect the set number of human agents all placed randomly across the world.
+- Human_Population: This slider can be used by a user to select a variable number of human agents to be populated into the world (Graphics window). Since at least two persons are required for a viral transmission to occur, the minimum number for the slider was set to “2”. After selecting the desired number of human agents, clicking the Initialize Simulation button will reset the simulation and reflect the set number of human agents all placed randomly across the world.
 
-MultimammateRatPopulation: to select a variable number of infectious rat agents which the user needs to be populated into the world. Clicking the Initialize Simulation button sets up the simulation with the desired number of rats and places them randomly across the world.
+- MultimammateRatPopulation: to select a variable number of infectious rat agents which the user needs to be populated into the world. Clicking the Initialize Simulation button sets up the simulation with the desired number of rats and places them randomly across the world.
 
 InitialNumberOf_Cases: For selecting a pre-existing number of cases (infectious human agents) at the beginning of the simulation. Clicking the Initialize Simulation button displays the selected Initial number of cases scattered randomly among all agents within the world.
 
