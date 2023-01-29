@@ -5,7 +5,7 @@ This model simulates Lassa Virus Transmission, an endemic predominantly in the w
 #### HOW TO RUN MODEL VIA NETLOGO MODELING COMMONS: ####
 
 - Load Link: http://modelingcommons.org/browse/one_model/7141#browse_nlw
-- Click the "Run in Netlogo Web" Tab to open the windwo, then click anywhere within this window to run model
+- Click the "Run in Netlogo Web" Tab to open the window, then click anywhere within this window to run model
 
 
 #### HOW IT WORKS: ####
