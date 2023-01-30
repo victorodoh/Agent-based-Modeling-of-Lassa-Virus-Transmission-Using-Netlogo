@@ -1,8 +1,8 @@
-AGENT-BASED MODELLING OF LASSA VIRUS TRANSMISSION USING NETLOGO
+# AGENT-BASED MODELLING OF LASSA VIRUS TRANSMISSION USING NETLOGO
 
 This model simulates Lassa Virus Transmission, an endemic predominantly in the western region of Africa. It is able to estimate the size of imminent attacks at any time based on some input parameters. It can be used to analyze the degree of impact of community hygiene and social distancing on the virus transmission rate over time, and can serve as a research aid tool for epidemiologists or health organisations.
 
-#### HOW TO RUN THE MODEL: ####
+## HOW TO RUN THE MODEL:
 
 1. Via Netlogo Modelling Commons:
 - [Click to go to Netlogo Modelling Commons](http://modelingcommons.org/browse/one_model/7141#browse_nlw)
@@ -14,7 +14,7 @@ This model simulates Lassa Virus Transmission, an endemic predominantly in the w
 - Open the `.nlogo` downloaded file in the Netlogo app to launch interface for simulation.
 
 
-#### HOW IT WORKS: ####
+## HOW IT WORKS:
 
 THE INTERFACE
 
@@ -27,7 +27,7 @@ Interface includes sets of parameters in the form of sliders which users can use
 - Run/Pause Simulation; This is configured as a “forever” button. Clicking this button activates the “go” command procedure in the code tab which then runs / pauses the simulation.
 
 
-#### HOW TO USE THE MODEL: ####
+## HOW TO USE THE MODEL:
 
 - Human_Population: This slider can be used by a user to select a variable number of human agents to be populated into the world (Graphics window). Since at least two persons are required for a viral transmission to occur, the minimum number for the slider was set to “2”. After selecting the desired number of human agents, clicking the Initialize Simulation button will reset the simulation and reflect the set number of human agents all placed randomly across the world.
 
@@ -53,7 +53,7 @@ Interface includes sets of parameters in the form of sliders which users can use
 
 - HumanBehaviourFactor: A factor which represents the level of hygiene or social distancing being practiced by humans in the world. The least value that can be selected is set at 0.01 and the highest value is set at 0.99. This system uses this value to adjust the speed of both agent sets in slightly different ways. The higher the value, the higher the degree of hygiene practice (and vice versa) which will mitigate the activities of the disease carrying rats in the world. This behavior is represented in the model by slowing down the speed (activities) of the rat agents, as well as improving social distancing for the human agents. The speed of both agent sets gets slower as the value gets higher.
 
-#### THINGS TO NOTICE: ####
+## THINGS TO NOTICE:
 
 The color changes helps to monitor the transition from one health status to the other, of the human agents.
 
@@ -70,7 +70,7 @@ POPULATED WORLD
 
 ![](Interface%20Pics/Populated%20World.png)
 
-#### THINGS TO TRY: ####
+## THINGS TO TRY:
 - You can adjust the HumanBehaviourFactor slider to see how the level of comminity hygiene / social distance being practiced affects the Lassa virus transmission.
 
 - You can also adjust the human / rat population to analyze the effect of population density on the Lassa virus transmission.
