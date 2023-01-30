@@ -5,13 +5,13 @@ This model simulates Lassa Virus Transmission, an endemic predominantly in the w
 #### HOW TO RUN THE MODEL: ####
 
 1. Via Netlogo Modelling Commons:
-- [Load Link](http://modelingcommons.org/browse/one_model/7141#browse_nlw)
+- [Click to go to Netlogo Modelling Commons](http://modelingcommons.org/browse/one_model/7141#browse_nlw)
 - Click the "Run in Netlogo Web" tab to open the window, then click anywhere within this window to run model.
 
 2. Via Netlog Desktop:
-- Download and install Netlogo for Mac/windows/Linux : https://ccl.northwestern.edu/netlogo/6.1.1/
-- Download the "Lassa Fever Transmission.nlogo" file of this repo
-- Open the .nlogo downloaded file in the Netlogo app to launch interface for simulation.
+- Download and install Netlogo for Mac/windows/Linux : [Download Link](https://ccl.northwestern.edu/netlogo/6.1.1/)
+- Download the `Lassa Fever Transmission.nlogo` file of this repo
+- Open the `.nlogo` downloaded file in the Netlogo app to launch interface for simulation.
 
 
 #### HOW IT WORKS: ####
