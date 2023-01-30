@@ -16,7 +16,7 @@ This model simulates Lassa Virus Transmission, an endemic predominantly in the w
 
 ## HOW IT WORKS:
 
-THE INTERFACE
+THE INTERFACE (Desktop Version)
 
 ![](Interface%20Pics/Model%20Interface.png)
 
